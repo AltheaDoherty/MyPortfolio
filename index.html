@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Althea J. Doherty - IT Help Desk Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Required library for downloading as PDF -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="resume-container" id="resume-content">
+
+    <!-- Interactive JS Control Bar (Hidden when printed/exported) -->
+    <div id="js-controls" class="no-print">
+        <div class="action-buttons">
+            <button id="download-pdf-btn" class="btn primary-btn">📥 Download PDF</button>
+            <button id="print-btn" class="btn secondary-btn">🖨️ Print Resume</button>
+        </div>
+        <div class="filter-buttons">
+            <span class="filter-label">Filter Skills:</span>
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="support">Support</button>
+            <button class="filter-btn" data-filter="security">Security & Cloud</button>
+            <button class="filter-btn" data-filter="dev">Dev & SQL</button>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="resume-header">
+        <div class="header-text">
+            <h1>ALTHEA J. DOHERTY</h1>
+            <p class="contact-info">(774) 271-4581 | altheaj.doherty@gmail.com | linkedin.com/in/altheadoherty | github.com/AltheaDoherty</p>
+            <div class="target-title">TARGET: IT HELP DESK SPECIALIST / SYSTEMS SUPPORT TECHNICIAN</div>
+        </div>
+        <img src="Althea.png" alt="Althea J. Doherty Headshot" class="profile-photo">
+    </header>
+
+    <h2>TECHNICAL SKILLS</h2>
+    <div class="skills-grid">
+        <p class="skill-item" data-category="support"><strong>Technical Support & Operations:</strong> Endpoint Troubleshooting, User Provisioning, Password Resets, Ticket Resolution</p>
+        <p class="skill-item" data-category="security"><strong>Systems & Hardware:</strong> Microsoft 365, Teams, SharePoint, Google Workspace, Windows, Linux, VoIP Systems, Oracle VirtualBox</p>
+        <p class="skill-item" data-category="security"><strong>Security & Networks:</strong> Active Directory, Access Control, Wireshark, Password Management Systems</p>
+        <p class="skill-item" data-category="dev"><strong>Databases & Tools:</strong> MySQL, Oracle Database, Python, SQL, HTML/CSS</p>
+    </div>
+
+    <h2>RELEVANT EXPERIENCE</h2>
+
+    <h3>Ecosystem Solutions Inc., Technical Administrator</h3>
+    <p class="date">10/2025 – Present</p>
+    <ul>
+        <li>Provide technical administration and endpoint support across office and field users to minimize downtime.</li>
+        <li>Deploy VoIP systems with automated call routing across field and office endpoints.</li>
+        <li>Migrate the organization to Microsoft Teams to centralize internal communications and technical support.</li>
+        <li>Deploy centralized password management to improve credential security across staff accounts.</li>
+        <li>Implement billing and project management platforms to improve asset tracking and operational workflow.</li>
+        <li>Conduct organization-wide cybersecurity awareness training to educate staff on identifying cyber threats and phishing attacks.</li>
+    </ul>
+
+    <h3>Bryant University, Library Assistant</h3>
+    <p class="date">02/2024 – 05/2025</p>
+    <ul>
+        <li>Provided first-line support for endpoint hardware, software installation, and database access issues.</li>
+        <li>Troubleshot user account permission issues and supported software navigation for university patrons.</li>
+        <li>Utilized cataloging software and database systems to organize digital and physical records.</li>
+    </ul>
+
+    <h3>Roger Williams Park Botanical Center, Volunteer Systems Administrator</h3>
+    <p class="date">05/2026 – Present</p>
+    <ul>
+        <li>Built a centralized database of plant records to streamline administration and staff data retrieval.</li>
+    </ul>
+
+    <!-- Clean Page Break for Page 2 -->
+    <div class="html2pdf__page-break"></div>
+
+    <h2 class="page-break-before">TECHNICAL PROJECTS</h2>
+
+    <h3>Command-Line Encryption Suite | Developer</h3>
+    <p class="date">09/2025 – Present</p>
+    <ul>
+        <li>Developed a Python utility supporting symmetric and asymmetric encryption algorithms for secure local file management.</li>
+    </ul>
+
+    <h3>Relational Database Implementation | Team Member</h3>
+    <p class="date">09/2024 – 12/2024</p>
+    <ul>
+        <li>Co-developed a normalized MySQL database to streamline administrative query performance and data access permissions.</li>
+    </ul>
+
+    <h2>EDUCATION & CERTIFICATIONS</h2>
+    <p><strong>Bryant University</strong> | BS in Business Administration | May 2025 (Magna cum laude, GPA: 3.73)</p>
+    <p><strong>Concentration:</strong> Applied Mathematics & Statistics | <strong>Minor:</strong> Information Systems</p>
+    <p><strong>Certifications:</strong> ISC2 Certified in Cybersecurity (CC) | CompTIA Network+ (In progress)</p>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
